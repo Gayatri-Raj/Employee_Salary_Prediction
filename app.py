@@ -19,7 +19,7 @@ occupation=st.sidebar.selectbox("Job Role",["Prof-specialty","Craft-repair","Exe
 hours_per_week=st.sidebar.slider("Hours-per-week",1,80,40)
 
 #Read input data as a dataframe
-df=pd.DataFrame({"age":[age],"education":[education],"occupation":[occupation],"hours-per-week":[hours_per_week]}
+df=pd.DataFrame({"age":[age],"education":[education],"occupation":[occupation],"hours-per-week":[hours_per_week]})
 
 #Write the input data
 st.write("### Input Data")
