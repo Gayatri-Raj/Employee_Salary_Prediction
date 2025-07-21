@@ -1,0 +1,12 @@
+requirements.txt
+
+The code is written in python; it can run on any python IDE including Jupyter Notebook.
+
+The following python libraries are requisites for the application to run:
+-pandas:            for data manipulation
+-Matplotlib.pyplot: data visualization
+-seaborn:           data visualization
+-scikit-learn:      machine learning algorithms
+-lightgbm:          machine learning boosting algorithm
+-streamlit:         Creating an application
+-joblib:            Saving the model
