@@ -12,14 +12,14 @@ st.markdown("Predicts whether a person's income is less than $50K or more than $
 
 st.sidebar.header("Enter employee details")
 age=st.sidebar.slider("Age",18,70,35)
-educational_num=st.sidebar.selectbox("Education Level",["Bachelors","Masters","PhD","HS-Grad","Assoc","Some-college"])
+education=st.sidebar.selectbox("Education Level",["Bachelors","Masters","PhD","HS-Grad","Assoc","Some-college"])
 occupation=st.sidebar.selectbox("Job Role",["Prof-specialty","Craft-repair","Exec-managerial","Adm-clerical","Sales","Other-service",
                                             "Machine-op-inspct","others","Transport-moving", "Handlers-cleaners","Farming-fishing",
                                             "Tech-support","Protective-serv","Priv-house-serv","Armed-Forces"])  
-hours-per-week=st.sidebar.slider("Hours-per-week",1,80,40)
+hours_per_week=st.sidebar.slider("Hours-per-week",1,80,40)
 
 #Read input data as a dataframe
-df=pd.DataFrame({"age":[age],"education":[educational_num],"occupation":[occupation],"hours-per-week":[hours-per-week]}
+df=pd.DataFrame({"age":[age],"education":[education],"occupation":[occupation],"hours-per-week":[hours_per_week]}
 
 #Write the input data
 st.write("### Input Data")
