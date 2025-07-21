@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import LogisticRegression
-import lightGBM as lgb
+import lightgbm as lgb
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score,confusion_matrix, classification_report
 import matplotlib.pyplot as plt
